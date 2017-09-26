@@ -1,0 +1,12 @@
+p {
+  font-size: 21px;
+  line-height: 26px;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+h1 {
+  color: red;
+  font-size: 30px
+  line-height: 1.4em;
+  text-decoratiom: uppercase;
+}
