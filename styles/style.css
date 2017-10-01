@@ -1,12 +1,78 @@
-p {
-  font-size: 21px;
-  line-height: 26px;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Caption');
+  body{
+    width: 700px;
+    margin: 0 auto;
+  }
+  h1 + p:first-letter { text-transform: uppercase; }
+  h1 + p {color: grey;
+    font-family: "PT Sans",sans-serif;
+    font-size: 24px;
+    line-height: 25px;
+    margin-top: 5px;}
+  h2 + p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 21px;
+  }
+  h3 + p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 19px;
+  }
+  h1 {
+    font-family: "PT Sans",sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 65px;
+  }
+  h2 {
+    font-family: "PT Sans",sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  h3 {
+    font-family: "PT Sans",sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .quote{
+    font-family: "PT Sans",sans-serif;
+    font-size:25px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 10px;
+    border-left: 2px solid black;
+    padding-left: 20px;
+    margin-left: -20px;  }  a {color:black;}  p {
+      font-family: "PT Sans",sans-serif;
+         font-size: 20px;
+    margin-top: 30px;
+    list-style-type: disc;  }
+
+    a, a:visited {
+    color: inherit;
+  }
+
+  h1, h2, h3, p, ul, blockquote {
+  width: 700px;
+  margin: 0 auto;
 }
 
-h1 {
-  color: red;
-  font-size: 30px
-  line-height: 1.4em;
-  text-decoratiom: uppercase;
+ul {
+  style: inherit
+  font-family: "PT Sans",sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  margin-top: inherit;
+}
+
+blockquote {
+  style: inherit
+  font-family: "PT Sans",sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  margin-top: inherit;
 }
