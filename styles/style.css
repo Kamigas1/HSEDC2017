@@ -9,45 +9,59 @@
     background-repeat: no-repeat;
     width: 700px;
     margin: 0 auto;
-  }
-
-  h1 + p:first-letter { text-transform: uppercase; }
-  h1 + p {color: grey;
-    font-family: "PT Sans", "PT Sans Caption", sans-serif;
-    font-size: 24px;
-    line-height: 25px;
-    margin-top: 5px;
-  }
-  h2 + p {
-    margin-top: 10px;
-    font-size: 20px;
-    line-height: 21px;
-  }
-  h3 + p {
-    margin-top: 10px;
-    font-size: 18px;
-    line-height: 19px;
+    padding-top: 66px;
+    line-height: 2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   h1 {
-    font-family: "PT Sans",sans-serif;
-    font-size: 30px;
+    font-family: "PT Sans Caption";
+    font-size: 40px;
     font-weight: bold;
     margin-top: 65px;
     letter-spacing: ;
     margin-bottom: auto;
-    padding-top: 66px;
+    line-height: 46px;
+  }
+  h1 + p {color: grey;
+    font-family: "PT Sans Caption";
+    font-size: 22px;
+    line-height: 31px;
+    margin-top: 2px;
+    margin-bottom: 31px;
   }
   h2 {
     font-family: "PT Sans",sans-serif;
-    font-size: 30px;
+    font-size: 37px;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 43px;
+    line-height: ;
+  }
+  h2 + p {
+    margin-top: 7px;
+    font-size: 20px;
+    line-height: 21px;
   }
   h3 {
     font-family: "PT Sans",sans-serif;
     font-size: 25px;
     font-weight: bold;
     margin-top: 30px;
+  }
+  h3 + p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 19px;
+  }
+  p, blockquote{
+    font-size: 22px;
+    line-height: 34px;
+  }
+  p + p{
+    margin-top: 28px;
+    margin-bottom: 26px;
+    font-size: 22px;
+
   }
   .quote{
     font-family: "PT Sans",sans-serif;
@@ -59,7 +73,7 @@
     padding-left: 20px;
     margin-left: -20px;  }  a {color:black;}  p {
       font-family: "PT Sans",sans-serif;
-         font-size: 20px;
+         font-size: 22px;
     margin-top: 30px;
     list-style-type: disc;  }
 
@@ -83,9 +97,19 @@ ul {
 blockquote {
   style: inherit;
   font-family: "PT Sans",sans-serif;
-  font-size: inherit;
-  font-weight: inherit;
-  margin-top: inherit;
+  font-size: 22px;
+  font-weight: 0px;
+  margin-top: 0px;
+}
+blockquote: ::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 3px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 background {
