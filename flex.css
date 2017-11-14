@@ -1,5 +1,7 @@
 .span {
-  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
 }
 .girl {
   margin: 50 50 50 50px;
@@ -210,10 +212,6 @@
 
 
 
-
-
-
-
 .minion2 {
 	width: 300px;
   height: 200px;
@@ -365,40 +363,4 @@
   border-radius: 0 0 20px 20px / 18px;
   background-color: #f5d200;
   left: 81px;
-}
-.tie2 {
-  width: 0;
-  height: 0;
-  position: absolute;
-  z-index: 6;
-  top: 91px;
-  left: 90px;
-  border-top: 25px solid transparent;
-  border-left: 60px solid #ea83b0;
-  border-bottom: 25px solid transparent;
-  transform: rotate(-24deg);
-}
-.tie2:after {
-  content: "";
-  width: 0;
-  height: 0;
-  position: absolute;
-  z-index: 6;
-  top: -27px;
-  left: -40px;
-  border-top: 25px solid transparent;
-  border-right: 60px solid #ea83b0;
-  border-bottom: 25px solid transparent;
-  transform: rotate(-4deg);
-}
-.tie2:before {
-  content: "";
-  width: 20px;
-  height: 30px;
-  position: absolute;
-  border-radius: 50%;
-  background-color: #ea83b0;
-  top: -16px;
-  left: -29px;
-  z-index: 10;
 }
