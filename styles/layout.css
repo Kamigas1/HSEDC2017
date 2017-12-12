@@ -12,10 +12,12 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
   h1, h2, h3, p, ul, blockquote {
     width: 700px;
     margin: 0 auto;
   }
+
   h1 {
     font-family: "PT Sans Caption";
     font-size: 40px;
@@ -25,6 +27,7 @@
     margin-bottom: auto;
     line-height: 41px;
   }
+
   h1 + p {color: grey;
     font-family: "PT Sans Caption";
     font-size: 22px;
@@ -32,6 +35,7 @@
     margin-top: 5px;
     margin-bottom: 29px;
   }
+
   h2 {
     font-family: "PT Sans",sans-serif;
     font-size: 37px;
@@ -40,6 +44,7 @@
     margin-bottom: 0px;
     line-height: 76px;
   }
+
   h2 + p {
     font-family: "PT Sans",sans-serif;
     margin-top: -12px;
@@ -47,6 +52,7 @@
     font-size: 22px;
     line-height: 34px;
     }
+
   h3 {
     font-family: "PT Sans",sans-serif;
     font-size: 32px;
@@ -55,6 +61,7 @@
     margin-bottom: 30px;
     line-height: 35px;
   }
+
   h3 + p {
     font-family: "PT Sans",sans-serif;
     margin-top: -12px;
@@ -62,17 +69,26 @@
     font-size: 22px;
     line-height: 35px;
   }
+
+  article img {
+   display: block;
+   width: 1020px;
+   margin: 80px 0 80px -160px;
+  }
+
   p, blockquote{
     font-family: "PT Sans",sans-serif;
     font-size: 22px;
     line-height: 33px;
   }
+
   p + p{
     font-family: "PT Sans",sans-serif;
     margin-top: 29px;
     margin-bottom: 22px;
     font-size: 22px;
   }
+
   .quote{
     font-family: "PT Sans",sans-serif;
     font-size:25px;
@@ -97,6 +113,7 @@
 
   a {
     color: inherit;
+    text-decoration: none;
   }
 
   a, a:visited {
@@ -118,14 +135,15 @@ ul {
   margin-top: inherit;
 }
 
-blockquote {
+article > blockquote {
   style: inherit;
   font-family: "PT Sans",sans-serif;
   font-size: 22px;
   font-weight: 0px;
   margin-top: 0px;
 }
-blockquote: ::before {
+
+article > blockquote: ::before {
   content: '';
   display: block;
   position: absolute;
@@ -136,6 +154,60 @@ blockquote: ::before {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+article > ul {
+  margin:
+}
+
+article {
+  width: 12px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  position: fixed;
+  top: 46px;
+  left: 20px;
+  width: 300px;
+  opacity: .1;
+  transition: opacity .2s linear;
+}
+
+.sidebar:hover {
+  opacity: 1;
+  transition: opacity .2s linear;
+}
+
+.sidebar > ul {
+  padding: 15px 30px;
+}
+
+.sidebar li {
+  margin: 12px 0;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, .8);
+}
+
+.sidebar > ul > li:first-child {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.sidebar > ul > li:hover {
+  color: (0, 0, 0, 1);
+}
+
+.sidebar > ul > li > ul {
+  padding-left: 10px;
+}
+
+.sidebar > ul > li > ul li {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.sidebar > ul > li > ul li:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
 
 background {
   background-image: url(dc-online-media-mockup.jpg)
