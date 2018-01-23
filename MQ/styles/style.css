@@ -1,0 +1,96 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar {
+  min-height: 50vh;
+}
+
+.Header {
+  position: absolute;
+  width: calc(100% - 240px);
+  margin: 0 auto;
+  height: 40px;
+  background: #006AFF;
+  transform: translateX(-50%);
+  padding: 12px 16px 14px;
+  top: 20px;
+}
+
+.Header-navLink:last-child {
+  margin-right: 0;
+}
+
+.Header-nav {
+  display: flex;
+  font-size: 0;
+  justify-content: space-between;
+}
+
+.Header-navLink {
+  color: #fff;
+  text-transform: uppercase;
+  font: normal 14px/1 'FugueMono', 'Lucida Console', Consolas, 'Courier New', monospace;
+  margin-right: 28px;
+}
+
+.Header-lang {
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+.Intro {
+  height: 90vh;
+  background-image: url(../images/intro.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Intro-title {
+  font-size: 110px;
+  line-height: 125px;
+  width: 70%;
+  color: #fff;
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+}
+
+.Intro-LinkRow {
+  position: absolute;
+  bottom: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  transform: rotateX(-50%);
+
+}
+
+.Intro-Link {
+  background: #006AFF;
+  padding: 4px 7px 2px;
+  transition: color .2s ease;
+}
+
+.isResearch {
+  background-image: url(../block1.jpg);
+}
+
+
+.future {
+
+}

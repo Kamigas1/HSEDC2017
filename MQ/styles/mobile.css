@@ -1,0 +1,10 @@
+@media (min-width: 325px) and (max-width: 767px) {
+  .screen .mobile {
+    display: block;
+    background-color: purple;
+  }
+
+  .screen .desktop {
+    display: none;
+  }
+}
