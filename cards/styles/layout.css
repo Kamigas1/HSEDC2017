@@ -1,0 +1,9 @@
+.div {
+  width: 300px;
+  display: flex;
+}
+
+.p {
+  margin: auto;
+  font-size: 60px;
+}

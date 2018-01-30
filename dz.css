@@ -1,0 +1,10 @@
+p {
+  margin: auto;
+  font-size: 32px;
+  display: none;
+}
+
+body {
+  display: flex;
+  justify-content: flex-end;
+}

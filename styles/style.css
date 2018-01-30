@@ -1,11 +1,10 @@
 @import "reset.css";
+@import "layout.css";
+@import "responsive.css";
 @import "desktop.css";
 @import "tablet.css";
 @import "mobile.css";
 @import "desktop-x1.css";
-
-}
-
 
 .screen {
   height: 100vh;
