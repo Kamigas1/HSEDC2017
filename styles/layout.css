@@ -127,6 +127,7 @@ a {
   width: 300px;
   opacity: .1;
   transition: opacity 1s ease;
+  z-index: 1;
 }
 
 .sidebar:hover {

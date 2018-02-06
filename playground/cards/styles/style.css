@@ -6,50 +6,72 @@
 @import "mobile.css";
 @import "desktop-x1.css";
 
-.conteiner {
-  width: ;
+.container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-left: 0;
+  display: block;
+  white-space: nowrap;
+  text-align: center;
+  position: relative;
 }
 
-.card {
+
+.card-1 {
   width: 300px;
   border: 1px solid #000;
+  display: block;
+  box-sizing: border-box;
 }
 
-.card-image {
+.card-image-1 {
   height: 300px;
   background-size: cover;
   background-position: center;
 }
 
-.card-text {
+.card-text-1 {
   font-size: 20px;
   text-align: center;
   padding: 20px;
 }
 
-.card-image2 {
+.card-2 {
+  width: 300px;
+  border: 1px solid #000;
+  display: block;
+  box-sizing: border-box;
+}
+
+.card-image-2 {
   height: 300px;
   background-image: url("https://i.pinimg.com/564x/9b/50/1e/9b501e83c81315541053f4c98d4a5eae.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.card-text2 {
+.card-text-2 {
   font-size: 20px;
   text-align: center;
   padding: 20px;
 }
 
-.card-image3 {
+.card-3 {
+  width: 300px;
+  border: 1px solid #000;
+  display: block;
+  box-sizing: border-box;
+}
+
+.card-image-3 {
   height: 300px;
   background-image: url("https://i.pinimg.com/564x/d0/1c/14/d01c140a25fa139468cea1cbba09661f.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.card-text3 {
+.card-text-3 {
   font-size: 20px;
   text-align: center;
   padding: 20px;
