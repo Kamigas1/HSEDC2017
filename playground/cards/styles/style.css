@@ -1,78 +1,24 @@
-@import "reset.css";
-@import "layout.css";
-@import "responsive.css";
-@import "desktop.css";
-@import "tablet.css";
-@import "mobile.css";
-@import "desktop-x1.css";
+* {margin: 0; padding: 0;}
+body {background: #ccc;}
 
-.container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 0;
-  display: block;
-  white-space: nowrap;
-  text-align: center;
-  position: relative;
+.slider{
+width: 640px;
+position: relative;
+padding-top: 320px;
+
+margin: 100px auto;
+
+
+.slider>img{
+position: absolute;
+left: 0; top: 0;
+transition: all 0.5s;
 }
 
-
-.card-1 {
-  width: 300px;
-  border: 1px solid #000;
-  display: block;
-  box-sizing: border-box;
+.slider input[name='slide_switch'] {
+display: none;
 }
 
-.card-image-1 {
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-}
-
-.card-text-1 {
-  font-size: 20px;
-  text-align: center;
-  padding: 20px;
-}
-
-.card-2 {
-  width: 300px;
-  border: 1px solid #000;
-  display: block;
-  box-sizing: border-box;
-}
-
-.card-image-2 {
-  height: 300px;
-  background-image: url("https://i.pinimg.com/564x/9b/50/1e/9b501e83c81315541053f4c98d4a5eae.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.card-text-2 {
-  font-size: 20px;
-  text-align: center;
-  padding: 20px;
-}
-
-.card-3 {
-  width: 300px;
-  border: 1px solid #000;
-  display: block;
-  box-sizing: border-box;
-}
-
-.card-image-3 {
-  height: 300px;
-  background-image: url("https://i.pinimg.com/564x/d0/1c/14/d01c140a25fa139468cea1cbba09661f.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.card-text-3 {
-  font-size: 20px;
-  text-align: center;
-  padding: 20px;
-}
+.slider label {
+margin: 18px 0 0 18px;
+border: 3px solid #999;

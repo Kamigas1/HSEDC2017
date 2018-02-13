@@ -17,6 +17,12 @@ article {
   margin: 0 auto;
 }
 
+iframe {
+  width: 100%;
+  margin-top: 43px;
+  height: 394px;
+}
+
 h1,h2,h3 {
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: bold;
@@ -197,5 +203,6 @@ article > li {
   margin: 20px;
   margin: 17px 0 17px 30px;
 }
+
 
 }
